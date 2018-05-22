@@ -15,6 +15,6 @@ public class HelloAction {
     }
     
     public String sayBye() {
-        return "";
+        return "p";
     }
 }
