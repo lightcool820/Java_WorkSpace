@@ -13,4 +13,8 @@ public class HelloAction {
     public String sayHello(@RequestParam(value="name",required=false) String name) {
         return name + " Hello World!";
     }
+    
+    public String sayBye() {
+        return "";
+    }
 }
